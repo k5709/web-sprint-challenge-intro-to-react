@@ -5,11 +5,9 @@ import styled from 'styled-components'
 
 const StyledCharacters = styled.div`
 .SWnames{
-
     :hover{
-        color:yellow
+        color:cyan
     }
-
 }
 `
 export default StyledCharacters

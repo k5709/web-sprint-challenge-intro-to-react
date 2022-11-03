@@ -72,6 +72,10 @@ After finishing your required elements, you can push your work further. These go
 ## Stretch Interview Questions
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+=> React is a JavaScript library that is used for building UI bases on UI compononents. React makes rendering elements to the DOM a lot easier with the virtual DOM. React allows the user to create an application easier with react hooks and imports.
 1. Describe component state.
+=> A built in react object that is used to contain data or information about the component.
 1. Describe props.
+=> Stands for properties, which refers to the properties of an object. This is because all elements created in react are js objects, as a result passing data into a component is done by creating properties and values for the object
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+=> Anything that affects something outside of the scope of the function being executed. 

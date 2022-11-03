@@ -1,15 +1,24 @@
-import React from 'react'
-import { Dropdown } from 'react-dropdown'
-import 'react-dropdown/Dropdown'
-import Character from './components/Character';
+// import React, { useState } from 'react'
+// import ReactDropdown from 'react-dropdown';
+// import Character from './Character'
 
 
-export default function DropdownMenu( ) {
-    return(
-        <Dropdown>
-            <Dropdown.Toggle variant="success" id="dropdown-basic">
-                <button></button>
-            </Dropdown.Toggle>
-        </Dropdown>
-    )
-}
+// const DropdownMenu = ({placeHolder, options}) => {
+//     const getDisplay = () => {
+//         return placeHolder
+//     };
+
+//     return (
+//         <div className='dropdown-container'>
+//             <div className="dropdown-btn">Choose A Character!</div>
+//             <div className='dropdown-menu'>
+//                 {options.map(() => (
+//                 <div key={Character.value} className='dropdown-item'>
+//                     {Character.label}
+//                 </div>
+//                 ))};
+//             </div>
+//         </div>
+//     );
+// }
+// export default DropdownMenu
